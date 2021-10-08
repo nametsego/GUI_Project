@@ -7,6 +7,9 @@ public class Main {
         String name = JOptionPane.showInputDialog("Enter your name");
         JOptionPane.showMessageDialog(null,"Hello "+ name);
 
+        String language = JOptionPane.showInputDialog("What is your favourite language to speak?");
+        JOptionPane.showMessageDialog(null,"My good sir "+ name + " your favorite language to speak is " + language);
+
         int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your age"));
         JOptionPane.showMessageDialog(null,name +" You are "+ age + " years old");
 
